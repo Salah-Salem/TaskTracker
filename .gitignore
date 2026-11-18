@@ -1,0 +1,30 @@
+# .NET build output
+bin/
+obj/
+artifacts/
+TestResults/
+*.user
+*.suo
+
+# IDEs
+.vs/
+.vscode/
+.idea/
+
+# Local SQLite databases (recreated + seeded on startup in Development)
+*.db
+*.db-shm
+*.db-wal
+
+# Node / web
+node_modules/
+dist/
+.env.local
+coverage/
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# OS
+Thumbs.db
+.DS_Store
